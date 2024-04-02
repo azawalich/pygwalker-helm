@@ -1,0 +1,3 @@
+gradio==4.25.0
+pandas==2.2.1
+pygwalker==0.4.7

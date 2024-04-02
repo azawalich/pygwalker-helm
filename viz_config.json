@@ -1,0 +1,759 @@
+[
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "dragId": "gw_FqWi",
+          "fid": "constructorId",
+          "name": "constructorId",
+          "basename": "constructorId",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_uSFy",
+          "fid": "number",
+          "name": "number",
+          "basename": "number",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_lcTL",
+          "fid": "position_driver",
+          "name": "position_driver",
+          "basename": "position_driver",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_LwV4",
+          "fid": "positionText_driver",
+          "name": "positionText_driver",
+          "basename": "positionText_driver",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_fbL0",
+          "fid": "time",
+          "name": "time",
+          "basename": "time",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_SDMV",
+          "fid": "milliseconds",
+          "name": "milliseconds",
+          "basename": "milliseconds",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_oSyk",
+          "fid": "fastestLap",
+          "name": "fastestLap",
+          "basename": "fastestLap",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw__7lm",
+          "fid": "rank",
+          "name": "rank",
+          "basename": "rank",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_okjI",
+          "fid": "fastestLapTime",
+          "name": "fastestLapTime",
+          "basename": "fastestLapTime",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_cle-",
+          "fid": "fastestLapSpeed",
+          "name": "fastestLapSpeed",
+          "basename": "fastestLapSpeed",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_8QVU",
+          "fid": "year",
+          "name": "year",
+          "basename": "year",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_3dWT",
+          "fid": "name_race",
+          "name": "name_race",
+          "basename": "name_race",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_RXey",
+          "fid": "date",
+          "name": "date",
+          "basename": "date",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_thLM",
+          "fid": "race_time",
+          "name": "race_time",
+          "basename": "race_time",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Ktdq",
+          "fid": "url_race",
+          "name": "url_race",
+          "basename": "url_race",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_jfMs",
+          "fid": "fp1_date",
+          "name": "fp1_date",
+          "basename": "fp1_date",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-iG3",
+          "fid": "fp1_time",
+          "name": "fp1_time",
+          "basename": "fp1_time",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_j9Bq",
+          "fid": "fp2_date",
+          "name": "fp2_date",
+          "basename": "fp2_date",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_7Ir5",
+          "fid": "fp2_time",
+          "name": "fp2_time",
+          "basename": "fp2_time",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_pj-y",
+          "fid": "fp3_date",
+          "name": "fp3_date",
+          "basename": "fp3_date",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_DsH_",
+          "fid": "fp3_time",
+          "name": "fp3_time",
+          "basename": "fp3_time",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_NEH6",
+          "fid": "quali_date",
+          "name": "quali_date",
+          "basename": "quali_date",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_QD94",
+          "fid": "quali_time",
+          "name": "quali_time",
+          "basename": "quali_time",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_TVq5",
+          "fid": "sprint_date",
+          "name": "sprint_date",
+          "basename": "sprint_date",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_N5CK",
+          "fid": "sprint_time",
+          "name": "sprint_time",
+          "basename": "sprint_time",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-xPi",
+          "fid": "driverRef",
+          "name": "driverRef",
+          "basename": "driverRef",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_TkwR",
+          "fid": "number_driver",
+          "name": "number_driver",
+          "basename": "number_driver",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_wrH4",
+          "fid": "code",
+          "name": "code",
+          "basename": "code",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_FjDi",
+          "fid": "forename",
+          "name": "forename",
+          "basename": "forename",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_txCM",
+          "fid": "surname",
+          "name": "surname",
+          "basename": "surname",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Y6SS",
+          "fid": "dob",
+          "name": "dob",
+          "basename": "dob",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_YRKG",
+          "fid": "nationality_driver",
+          "name": "nationality_driver",
+          "basename": "nationality_driver",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_eEG_",
+          "fid": "url_driver",
+          "name": "url_driver",
+          "basename": "url_driver",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_eGSs",
+          "fid": "constructorRef",
+          "name": "constructorRef",
+          "basename": "constructorRef",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_iVLV",
+          "fid": "name_constructor",
+          "name": "name_constructor",
+          "basename": "name_constructor",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_knWK",
+          "fid": "nationality_constructor",
+          "name": "nationality_constructor",
+          "basename": "nationality_constructor",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_r3Qe",
+          "fid": "url_constructor",
+          "name": "url_constructor",
+          "basename": "url_constructor",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Izqa",
+          "fid": "circuitRef",
+          "name": "circuitRef",
+          "basename": "circuitRef",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_sMKE",
+          "fid": "name_circuit",
+          "name": "name_circuit",
+          "basename": "name_circuit",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_50NA",
+          "fid": "location_circuit",
+          "name": "location_circuit",
+          "basename": "location_circuit",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_LPYD",
+          "fid": "country_circuit",
+          "name": "country_circuit",
+          "basename": "country_circuit",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_n_Ek",
+          "fid": "lat",
+          "name": "lat",
+          "basename": "lat",
+          "semanticType": "quantitative",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_VCVh",
+          "fid": "alt",
+          "name": "alt",
+          "basename": "alt",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_3zNE",
+          "fid": "url_circuit",
+          "name": "url_circuit",
+          "basename": "url_circuit",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_J53-",
+          "fid": "status_constructor",
+          "name": "status_constructor",
+          "basename": "status_constructor",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-xhN",
+          "fid": "positionText_constructor",
+          "name": "positionText_constructor",
+          "basename": "positionText_constructor",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_PlfP",
+          "fid": "url_season",
+          "name": "url_season",
+          "basename": "url_season",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mkya",
+          "fid": "status_type",
+          "name": "status_type",
+          "basename": "status_type",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mea_key_fid",
+          "fid": "gw_mea_key_fid",
+          "name": "Measure names",
+          "analyticType": "dimension",
+          "semanticType": "nominal",
+          "offset": 0
+        }
+      ],
+      "measures": [
+        {
+          "dragId": "gw_v5OE",
+          "fid": "Unnamed: 0",
+          "name": "Unnamed: 0",
+          "basename": "Unnamed: 0",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_2fUW",
+          "fid": "resultId",
+          "name": "resultId",
+          "basename": "resultId",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_vgTK",
+          "fid": "raceId",
+          "name": "raceId",
+          "basename": "raceId",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4JzC",
+          "fid": "driverId",
+          "name": "driverId",
+          "basename": "driverId",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_8xp_",
+          "fid": "grid",
+          "name": "grid",
+          "basename": "grid",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ybNE",
+          "fid": "positionOrder",
+          "name": "positionOrder",
+          "basename": "positionOrder",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_kHK6",
+          "fid": "points_driver",
+          "name": "points_driver",
+          "basename": "points_driver",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_AgNZ",
+          "fid": "laps",
+          "name": "laps",
+          "basename": "laps",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_i7Ue",
+          "fid": "statusId",
+          "name": "statusId",
+          "basename": "statusId",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_zPea",
+          "fid": "round",
+          "name": "round",
+          "basename": "round",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_qtJq",
+          "fid": "circuitId",
+          "name": "circuitId",
+          "basename": "circuitId",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_5kI3",
+          "fid": "lng",
+          "name": "lng",
+          "basename": "lng",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_Puhd",
+          "fid": "constructorResultsId",
+          "name": "constructorResultsId",
+          "basename": "constructorResultsId",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_ESTC",
+          "fid": "points_constructor",
+          "name": "points_constructor",
+          "basename": "points_constructor",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_LuRn",
+          "fid": "constructorStandingsId",
+          "name": "constructorStandingsId",
+          "basename": "constructorStandingsId",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_T7ft",
+          "fid": "position_constructor",
+          "name": "position_constructor",
+          "basename": "position_constructor",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_-bFU",
+          "fid": "wins_constructor",
+          "name": "wins_constructor",
+          "basename": "wins_constructor",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_4kPC",
+          "fid": "driverStandingsId",
+          "name": "driverStandingsId",
+          "basename": "driverStandingsId",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_xtmC",
+          "fid": "wins_driver",
+          "name": "wins_driver",
+          "basename": "wins_driver",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "dragId": "gw_count_fid",
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          },
+          "offset": 0
+        },
+        {
+          "dragId": "gw_mea_val_fid",
+          "fid": "gw_mea_val_fid",
+          "name": "Measure values",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "rows": [
+        {
+          "dragId": "gw_SF6x",
+          "fid": "surname",
+          "name": "surname",
+          "basename": "surname",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0,
+          "sort": "descending"
+        }
+      ],
+      "columns": [
+        {
+          "dragId": "gw_P9DJ",
+          "fid": "wins_driver",
+          "name": "wins_driver",
+          "basename": "wins_driver",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        }
+      ],
+      "color": [],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [],
+      "filters": [
+        {
+          "dragId": "gw_4y__",
+          "fid": "wins_driver",
+          "name": "wins_driver",
+          "basename": "wins_driver",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0,
+          "rule": {
+            "type": "range",
+            "value": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      },
+      "scaleIncludeUnmatchedChoropleth": false,
+      "colorPalette": "",
+      "useSvg": false,
+      "scale": {
+        "opacity": {},
+        "size": {}
+      },
+      "primaryColor": "rgba(255,26,5,1)"
+    },
+    "visId": "gw_89Vy",
+    "name": "Chart 1"
+  }
+]
