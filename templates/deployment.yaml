@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-dashboard-deployment
+  namespace: f1-platform
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: data-dashboard-app
+  template:
+    metadata:
+      labels:
+        app: data-dashboard-app
+    spec:
+      containers:
+        - name: data-dashboard-app
+          image: f1-data-exploration:v0.1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 7860
+          livenessProbe:
+            tcpSocket:
+              port: 7860
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          readinessProbe:
+            tcpSocket:
+              port: 7860
+            initialDelaySeconds: 15
+            periodSeconds: 10 
