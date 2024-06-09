@@ -2,7 +2,9 @@ apiVersion: v1
 kind: Service
 metadata:
   name: data-dashboard-service
-  namespace: f1-platform
+  labels:
+    app: f1-platform
+    component: pygwalker
 spec:
   type: NodePort
   selector:
